@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-color: hsl(218, 44%, 22%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #d2deec;
+  margin: 16px;
+  font-family: Outfit;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.qr-code {
+  align-items: center;
+  padding: 8px;
+  display: flex;
+  background-color: white;
+  width: 250px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+}
+.qr-code img {
+  width: 95%;
+  padding: 8px auto;
+  border-radius: 8px;
+}
+.qr-code p {
+  font-size: 14px;
+  color: gray;
+}/*# sourceMappingURL=main.css.map */
